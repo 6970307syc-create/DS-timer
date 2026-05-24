@@ -395,7 +395,7 @@ namespace DSTimer
         {
             active = false;
             progress = 0F;
-            timeLabel.Text = large ? "Not Started" : "Idle";
+            timeLabel.Text = "Not Started";
             timeLabel.Font = new Font("Segoe UI Semibold", large ? 29F : 23F, FontStyle.Bold, GraphicsUnit.Point);
             stateLabel.Text = "Not Started";
             Invalidate();
